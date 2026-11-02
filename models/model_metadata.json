@@ -1,0 +1,191 @@
+{
+  "best_model": "Gradient Boosting",
+  "features": [
+    "stock",
+    "news_count",
+    "sentiment_std",
+    "sentiment_range",
+    "sentiment_lag1",
+    "sentiment_lag3",
+    "sentiment_roll3",
+    "sentiment_roll7",
+    "sentiment_momentum",
+    "month",
+    "day_of_week"
+  ],
+  "confusion_matrix": [
+    [
+      8,
+      530
+    ],
+    [
+      18,
+      1811
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.3076923076923077,
+      "recall": 0.01486988847583643,
+      "f1-score": 0.028368794326241134,
+      "support": 538.0
+    },
+    "1": {
+      "precision": 0.7736010252029047,
+      "recall": 0.9901585565882997,
+      "f1-score": 0.8685851318944844,
+      "support": 1829.0
+    },
+    "accuracy": 0.7684833122095479,
+    "macro avg": {
+      "precision": 0.5406466664476062,
+      "recall": 0.502514222532068,
+      "f1-score": 0.4484769631103628,
+      "support": 2367.0
+    },
+    "weighted avg": {
+      "precision": 0.6677037332634449,
+      "recall": 0.7684833122095479,
+      "f1-score": 0.6776107383111659,
+      "support": 2367.0
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "num__news_count",
+      "importance": 0.0637
+    },
+    {
+      "feature": "num__sentiment_std",
+      "importance": 0.0
+    },
+    {
+      "feature": "num__sentiment_range",
+      "importance": 0.211
+    },
+    {
+      "feature": "num__sentiment_lag1",
+      "importance": 0.0949
+    },
+    {
+      "feature": "num__sentiment_lag3",
+      "importance": 0.0642
+    },
+    {
+      "feature": "num__sentiment_roll3",
+      "importance": 0.1182
+    },
+    {
+      "feature": "num__sentiment_roll7",
+      "importance": 0.1105
+    },
+    {
+      "feature": "num__sentiment_momentum",
+      "importance": 0.0585
+    },
+    {
+      "feature": "num__month",
+      "importance": 0.0615
+    },
+    {
+      "feature": "num__day_of_week",
+      "importance": 0.08
+    },
+    {
+      "feature": "cat__stock_ADANIPORTS",
+      "importance": 0.002
+    },
+    {
+      "feature": "cat__stock_ADANIPOWER",
+      "importance": 0.0007
+    },
+    {
+      "feature": "cat__stock_APOLLOHOSP",
+      "importance": 0.0
+    },
+    {
+      "feature": "cat__stock_AXISBANK",
+      "importance": 0.0023
+    },
+    {
+      "feature": "cat__stock_BAJAJFINSV",
+      "importance": 0.0027
+    },
+    {
+      "feature": "cat__stock_BEL",
+      "importance": 0.0014
+    },
+    {
+      "feature": "cat__stock_BHARTIARTL",
+      "importance": 0.0032
+    },
+    {
+      "feature": "cat__stock_HDFCBANK",
+      "importance": 0.0203
+    },
+    {
+      "feature": "cat__stock_HINDUNILVR",
+      "importance": 0.0034
+    },
+    {
+      "feature": "cat__stock_ICICIBANK",
+      "importance": 0.0238
+    },
+    {
+      "feature": "cat__stock_INFY",
+      "importance": 0.0107
+    },
+    {
+      "feature": "cat__stock_ITC",
+      "importance": 0.0003
+    },
+    {
+      "feature": "cat__stock_KOTAKBANK",
+      "importance": 0.0107
+    },
+    {
+      "feature": "cat__stock_LT",
+      "importance": 0.0029
+    },
+    {
+      "feature": "cat__stock_MARUTI",
+      "importance": 0.0114
+    },
+    {
+      "feature": "cat__stock_NTPC",
+      "importance": 0.002
+    },
+    {
+      "feature": "cat__stock_PIDILITIND",
+      "importance": 0.0
+    },
+    {
+      "feature": "cat__stock_RELIANCE",
+      "importance": 0.006
+    },
+    {
+      "feature": "cat__stock_SBIN",
+      "importance": 0.013
+    },
+    {
+      "feature": "cat__stock_SUNPHARMA",
+      "importance": 0.0
+    },
+    {
+      "feature": "cat__stock_TATAPOWER",
+      "importance": 0.0039
+    },
+    {
+      "feature": "cat__stock_TATASTEEL",
+      "importance": 0.0105
+    },
+    {
+      "feature": "cat__stock_TCS",
+      "importance": 0.0042
+    },
+    {
+      "feature": "cat__stock_TITAN",
+      "importance": 0.0021
+    }
+  ]
+}
